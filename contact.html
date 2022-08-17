@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aqua Heaven-Fish Farm</title>
+
+  <link href="http://fonts.cdnfonts.com/css/mv-boli" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<style>
+  @import url('http://fonts.cdnfonts.com/css/mv-boli');
+
+  #id1 {
+    font-family: 'MV Boli', sans-serif;
+    color: rgb(0, 0, 0);
+  }
+
+  body {
+    background-color: rgb(0, 0, 0);
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 75px;
+  }
+
+  .navbar-custom {
+    background-color: rgb(191, 219, 228);
+  }
+
+  .about-body {
+    margin-left: 25px;
+    margin-right: 25px;
+    color: white;
+  }
+  .form-label{
+    color: white;
+  }
+  
+</style>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-custom">
+    <div class="container-fluid">
+      <img src="/logo.png" alt="" width="40" height="34" class="d-inline-block align-text-top">
+      <a class="navbar-brand" href="#" id="id1">AquaHeaven</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html"> About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Products & Services
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="/farmfish.html">Farm Fresh Fish</a></li>
+              <li><a class="dropdown-item" href="/farmtourism.html">Farm Tourism</a></li>
+              <!-- <li> 
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/contact.html"> Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-dark" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <h2 class="display-5 form-label mx-auto col-3">CONTACT US</h2>
+  <div class="mb-3" style="margin-left: 25px;">
+    <label for="exampleFormControlInput1" class="form-label form-label">Name</label>
+    <input type="text" class="form-control" style="width:700px;" id="exampleFormControlInput1" placeholder="Enter your name">
+</div>
+<div class="mb-3" style="margin-left: 25px;">
+     <label for="exampleFormControlInput1" class="form-label form-label">Email address</label>
+    <input type="email" class="form-control" style="width:700px" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="mb-3" style="margin-left: 25px;">
+    <label for="exampleFormControlTextarea1" class="form-label">Enter your comments or query</label>
+    <textarea class="form-control" style="width:700px;"id="exampleFormControlTextarea1" rows="5"></textarea>
+  </div>
+  <div class="d-grid gap-2 col-2" style="margin-top: 40px; margin-left: 200px;">
+    <button class="btn btn-success" type="button">Submit</button>
+  </div>
+</div>
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top position-fixed fixed-bottom">
+      <div class="col-md-4 d-flex align-items-center">
+        <!-- <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a> -->
+        <img src="/logo.png" alt="" width="40" height="34" class="d-inline-block align-text-top">
+        <span class="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
+      </div>
+
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-2"><a class="text-muted" href="#"><img src="/FB.png" alt="fb" width="30" height="30"> </a> </li>
+        <li class="ms-2"><a class="text-muted" href="https://www.instagram.com/aquaheavenfarm"><img src="/INSTAGRAM.png"
+              alt="instagram" width="30" height="30"> </a> </li>
+        <!-- <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li> -->
+      </ul>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
